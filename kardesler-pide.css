@@ -1,19 +1,35 @@
-*{
+* {
     margin: 0;
+    padding: 0;
 }
-.menu{
+
+h2 {
+    padding-left: 2px;
+    color: #686d76;
+}
+p {
+    display: flex;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 1px;
+    column-gap: 10px;
+}
+
+.menu {
     height: 100px;
-    background: #686D76;
+    background: #686d76;
     align-content: center;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: relative;
-
-
-
 }
-.logo{
+
+.logo {
     justify-content: center;
     align-items: center;
     background-size: 50px 50px;
@@ -21,103 +37,101 @@
     background-position: 50%;
     width: 25rem;
     height: 100%;
-
 }
-.right-bar{
-    height: 100%;
+
+.right-bar {
     margin-left: auto;
-    margin-top: 80px;
     margin-right: 80px;
-
-
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
 }
 
-
-.hakkimizda{
+.hakkimizda {
     text-decoration: none;
-    color: #EEEEEE;
-    border: 3px solid #EEEEEE;
+    color: #eeeeee;
+    border: 3px solid #eeeeee;
     padding: 15px;
     transition: 250ms ease-in-out;
     font-size: 15px;
     text-align: center;
     height: 50%;
-
-
 }
-.hakkimizda:hover{
-
-    border-color: #DC5F00;
+.hakkimizda:hover {
+    border-color: #dc5f00;
     font-size: 20px;
 }
+
 .iletisim {
     text-decoration: none;
-    color: #EEEEEE;
-    border: 3px solid #EEEEEE;
+    color: #eeeeee;
+    border: 3px solid #eeeeee;
     padding: 15px;
     transition: 250ms ease-in-out;
     font-size: 15px;
     text-align: center;
     height: 50%;
 }
-.iletisim:hover{
 
-    border-color: #DC5F00;
+.iletisim:hover {
+    border-color: #dc5f00;
     font-size: 20px;
 }
-.siparis{
+
+.siparis {
     text-decoration: none;
-    color: #EEEEEE;
-    border: 3px solid #EEEEEE;
+    color: #eeeeee;
+    border: 3px solid #eeeeee;
     padding: 15px;
     transition: 250ms ease-in-out;
     font-size: 15px;
     text-align: center;
     height: 50%;
 }
-.siparis:hover{
-
-    border-color: #DC5F00;
+.siparis:hover {
+    border-color: #dc5f00;
     font-size: 20px;
 }
-.acilis{
+
+.baslik {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.acilis {
     text-align: center;
     margin-top: 20px;
-    font-family: Coolvetica , Helvetica, sans-serif;
+    font-family: Coolvetica, Helvetica, sans-serif;
     font-size: 28px;
     letter-spacing: 2px;
     width: 100%;
+    border-bottom: 5px solid transparent;
+    transition: border-bottom 0.5s linear;
+    display: inline;
 }
-.acilis:hover{
-    border-bottom: 5px solid #DC5F00;
+
+.acilis:hover {
+    border-bottom: 5px solid #dc5f00;
 }
-.pideci{
+
+.pideci {
     width: 120vh;
     display: block;
-    border: 5px solid #686D76;
+    border: 5px solid #686d76;
     margin-top: 20px;
     margin-left: 20px;
 }
-.yazilar{
+
+.yazilar {
     font-family: Arial Helvetica Serif;
     margin-top: 20px;
     margin-right: auto;
-    margin: auto;
-}
-.h2{
-padding-left: 2px;
-    text-align: start;
-font-color: #686D76;
-    text-align: center;
-    margin: auto;
-}
-.container{
-    display: flex;
-    justify-content: space-between;
-    row-gap: 1px;
-    column-gap: 10px;
-}
-p{
-    display: flex;
-    font-size: 18px;
+
+    .yazilar_content {
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
 }
