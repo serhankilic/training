@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+.menu{
+    height: 100px;
+    background: #686D76;
+    align-content: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+
+
+
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+    background-size: 50px 50px;
+    scale: 70%;
+    background-position: 50%;
+    width: 25rem;
+    height: 100%;
+
+}
+.right-bar{
+    height: 100%;
+    margin-left: auto;
+    margin-top: 80px;
+    margin-right: 80px;
+
+
+}
+
+
+.hakkimizda{
+    text-decoration: none;
+    color: #EEEEEE;
+    border: 3px solid #EEEEEE;
+    padding: 15px;
+    transition: 250ms ease-in-out;
+    font-size: 15px;
+    text-align: center;
+    height: 50%;
+
+
+}
+.hakkimizda:hover{
+
+    border-color: #DC5F00;
+    font-size: 20px;
+}
+.iletisim {
+    text-decoration: none;
+    color: #EEEEEE;
+    border: 3px solid #EEEEEE;
+    padding: 15px;
+    transition: 250ms ease-in-out;
+    font-size: 15px;
+    text-align: center;
+    height: 50%;
+}
+.iletisim:hover{
+
+    border-color: #DC5F00;
+    font-size: 20px;
+}
+.siparis{
+    text-decoration: none;
+    color: #EEEEEE;
+    border: 3px solid #EEEEEE;
+    padding: 15px;
+    transition: 250ms ease-in-out;
+    font-size: 15px;
+    text-align: center;
+    height: 50%;
+}
+.siparis:hover{
+
+    border-color: #DC5F00;
+    font-size: 20px;
+}
+.acilis{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Coolvetica , Helvetica, sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+    width: 100%;
+}
+.acilis:hover{
+    border-bottom: 5px solid #DC5F00;
+}
+.pideci{
+    width: 120vh;
+    display: block;
+    border: 5px solid #686D76;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.yazilar{
+    font-family: Arial Helvetica Serif;
+    margin-top: 20px;
+    margin-right: auto;
+    margin: auto;
+}
+.h2{
+padding-left: 2px;
+    text-align: start;
+font-color: #686D76;
+    text-align: center;
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 1px;
+    column-gap: 10px;
+}
+p{
+    display: flex;
+    font-size: 18px;
+}
