@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+.main-menu {
+    position: relative;
+    background-color: #fefae0;
+}
+header {
+    .buttons {
+        display: flex;
+        position: relative;
+        background-color: #dda15e;
+        height: 150px;
+        font-size: 25px;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 80px;
+        padding-right: 80px;
+        border-bottom: 7px solid #283618;
+
+        a {
+            height: 2rem;
+            position: relative;
+            text-decoration: none;
+            color: #fefae0;
+            border-bottom: 3px solid transparent;
+            transition: all 0.55s ease-in;
+            &:hover {
+                border-bottom: 3px solid #bc6c25;
+                scale: 130%;
+            }
+        }
+    }
+    .yazilar {
+        background-image: url('kapak.png');
+        background-size: 40vh;
+        background-position: left 40px top;
+        background-repeat: no-repeat;
+        position: relative;
+        .isim {
+            width: 10rem;
+            height: 10rem;
+            text-align: center;
+            color: #283618;
+            position: relative;
+            font-weight: 600;
+        }
+        .myself {
+        }
+    }
+}
