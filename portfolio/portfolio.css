@@ -30,7 +30,7 @@ header {
             text-decoration: none;
             color: #fefae0;
             border-bottom: 3px solid transparent;
-            transition: all 0.55s ease-in;
+            transition: all 0.25s ease-in;
             &:hover {
                 border-bottom: 3px solid #bc6c25;
                 scale: 130%;
@@ -38,20 +38,28 @@ header {
         }
     }
     .yazilar {
-        background-image: url('kapak.png');
-        background-size: 40vh;
-        background-position: left 40px top;
-        background-repeat: no-repeat;
+        width: 100%;
+        height: 1140px;
         position: relative;
+        justify-content: space-between;
+        display: flex;
         .isim {
-            width: 10rem;
-            height: 10rem;
-            text-align: center;
+            display: flex;
             color: #283618;
             position: relative;
             font-weight: 600;
+            font-size: 120px;
+            text-align: center;
+            margin-top: 450px;
+            margin-bottom: 570px;
+            margin-left: 120px;
+            border: #283618 4px solid;
+            padding-bottom: 0px;
         }
-        .myself {
+        .foto {
+            scale: 50%;
+            position: relative;
+            display: flex;
         }
     }
 }
