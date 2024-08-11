@@ -41,8 +41,9 @@ header {
         width: 100%;
         height: 1140px;
         position: relative;
-        justify-content: space-between;
         display: flex;
+        align-items: center;
+        justify-content: space-between;
         .isim {
             display: flex;
             color: #283618;
@@ -50,10 +51,8 @@ header {
             font-weight: 600;
             font-size: 120px;
             text-align: center;
-            margin-top: 450px;
-            margin-bottom: 570px;
             margin-left: 120px;
-            border: #283618 4px solid;
+            border: #283618 10px solid;
             padding-bottom: 0px;
         }
         .foto {
