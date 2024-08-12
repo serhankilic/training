@@ -24,6 +24,11 @@ body {
         color: #800000;
         text-decoration: none;
         font-weight: 600;
+        transition: 0.25s;
+        &:hover {
+            color: #982b1c;
+            scale: 130%;
+        }
     }
     .navbar a {
         font-size: 18px;
@@ -40,6 +45,7 @@ body {
         justify-content: space-between;
         width: 150px;
         height: 40px;
+        position: static;
         a {
             display: inline-flex;
             justify-content: center;
@@ -53,11 +59,11 @@ body {
             transform: rotate(45deg);
             transition: 0.5s;
             &:hover {
-                border: 3px solid maroon;
+                border: 3px solid #f2e8c6;
             }
             i {
                 font-size: 24px;
-                color: red;
+                color: #dad4b5;
                 transform: rotate(-45deg);
             }
         }
@@ -65,8 +71,7 @@ body {
 }
 
 .home {
-    width: 90%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -108,8 +113,7 @@ body {
 }
 
 .home-img {
-    posiiton: relative;
-
+    position: relative;
     width: 450px;
     height: 450px;
     transform: rotate(45deg);
@@ -120,4 +124,22 @@ body {
     height: 100%;
     background: #dad4b5;
     border: 25px solid maroon;
+    box-shadow: -15px 15px 15px rgba(0, 0, 0, 0.2);
+    .porsche {
+        position: absolute;
+        top: 75px;
+        left: -250px;
+        max-width: 850px;
+        transform: rotate(-45deg);
+    }
+}
+.rhombus2 {
+    position: absolute;
+    top: -10%;
+    right: -20%;
+    width: 800px;
+    height: 800px;
+    background: maroon;
+    transform: rotate(45deg);
+    z-index: -1;
 }
