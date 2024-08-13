@@ -15,20 +15,19 @@ header {
 .hankit-menu {
     width: 100%;
     height: 10rem;
-    background-color: #9B86BD;
+    background-color: #D1E9F6;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Nanum Gothic Medium', sans-serif;
-}
     .logo{
-        max-width: 33%;
-        position: relative;
-        position: relative;
-        scale: 30%;
-        display: flex;
-        justify-content: space-between;
-    }
+    max-width: 33%;
+    position: relative;
+    position: relative;
+    scale: 30%;
+    display: flex;
+    justify-content: space-between;
+}
     .navigation{
         display: flex;
         a{  font-size: 20px;
@@ -37,10 +36,10 @@ header {
             color: #222222;
             border-bottom: 3px solid transparent;
             transition: all 0.45s;
-                &:hover{
-                    border-bottom:3px solid #050C9C;
-                    scale: 110%;
-                }
+            &:hover{
+                border-bottom:3px solid #050C9C;
+                scale: 110%;
+            }
 
 
         }
@@ -60,8 +59,16 @@ header {
             &:hover{
                 border: 2px solid #050C9C;
                 background-color: #3572EF;
-                color: #A7E6FF;
+                color: #D1E9F6;
+;
 
             }
+        }
     }
 }
+.container{
+    height: 60rem;
+    background-color: #D1E9F6;
+}
+
+
