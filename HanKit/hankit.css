@@ -46,7 +46,8 @@ header {
         }
     }
     .register {
-        margin-right: 35px;
+        margin-right: 75px;
+        padding-left: 200px;
 
         a {
             font-size: 20px;
@@ -80,12 +81,12 @@ header {
         padding: 10px 10px;
         font-size: 30px;
 
-        .baslik {
+        #baslik {
             padding-top: 150px;
             text-align: left;
             font-weight: 600;
         }
-        .description {
+        #description {
             padding-top: 40px;
             font-size: 23px;
         }
@@ -112,13 +113,13 @@ header {
             }
         }
     }
-    .tasarim {
+    #design {
         height: 50rem;
         width: 50rem;
         display: flex;
-        margin: 0 90px;
+        margin-right: 90px;
     }
-    .information {
+    #information {
         top: 52rem;
         position: absolute;
         display: flex;
@@ -128,7 +129,7 @@ header {
         color: #050c9c;
     }
 }
-.container-2 {
+#container-2 {
     height: 10rem;
     padding: 30px 50px;
     display: flex;
@@ -138,6 +139,13 @@ header {
         width: 100%;
     }
 }
+.animate__backInLeft {
+    --animate-duration: 0.8s;
+}
+.animate__fadeIn {
+    --animate-duration: 3s;
+}
+
 main {
     height: 50rem;
 }
