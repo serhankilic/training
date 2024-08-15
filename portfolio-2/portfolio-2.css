@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nanum+Gothic:wght@400;700&family=Protest+Strike&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+header {
+    .navigation-bar {
+        height: 200px;
+        padding: 0 40px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #141414;
+        border-bottom: 3px solid #ecdfcc;
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            a {
+                display: flex;
+                margin: 0 20px;
+                justify-content: space-around;
+                padding: 10px 30px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #ecdfcc;
+                border-bottom: 5px solid transparent;
+                border-radius: 30px;
+                transition: all 0.35s;
+            }
+            .home:hover {
+                border-bottom: 5px solid #697565;
+            }
+            .service:hover {
+                border-bottom: 5px solid #697565;
+            }
+            .port:hover {
+                border-bottom: 5px solid #697565;
+            }
+            .contact:hover {
+                border-bottom: 5px solid #697565;
+            }
+        }
+        .touch {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+                padding: 10px 20px;
+                margin: 10px 40px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #ecdfcc;
+                border: 3px solid #ecdfcc;
+                border-radius: 10px;
+                transition: all 0.35s;
+                &:hover {
+                    background-color: #697565;
+                }
+            }
+        }
+    }
+    .container_1 {
+        width: 100%;
+        height: 1090px;
+        background-color: #141414;
+        position: relative;
+        display: flex;
+        .bg-pic {
+            display: flex;
+            position: absolute;
+            scale: 100%;
+            top: 0px;
+            right: 0px;
+            background-position: right;
+        }
+        .yazilar {
+            display: inline-block;
+            position: absolute;
+            padding-right: 0;
+            color: #697565;
+            left: 80px;
+            bottom: 100px;
+            z-index: 1;
+
+            p.big {
+                font-family: 'Anton', sans-serif;
+                font-size: 330px;
+                font-weight: 500;
+                letter-spacing: 40px;
+                border-top: 10px solid #ecdfcc;
+                user-select: none;
+            }
+        }
+    }
+}
