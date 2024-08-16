@@ -43,6 +43,7 @@ header {
         }
         .contacts {
             display: flex;
+            align-items: center;
             a {
                 margin: 0 10px;
                 padding: 10px 15px;
