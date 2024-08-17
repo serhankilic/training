@@ -99,7 +99,7 @@ header {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        height: 25rem;
+        height: 20rem;
         .kutu-1 {
             display: flex;
             align-items: center;
@@ -112,17 +112,17 @@ header {
             justify-content: flex-start;
             .basement {
                 font-size: 40px;
-                margin-top: 90px;
-                font-weight: 600;
+                margin-top: 20px;
+                font-weight: 400;
             }
             .aciklama {
-                margin-top: 20px;
+                margin-top: 10px;
                 font-size: 22px;
                 color: #31363f;
                 font-weight: 200;
             }
             .main-buttons {
-                margin-top: 70px;
+                margin-top: 35px;
 
                 .talk {
                     font-size: 25px;
@@ -160,6 +160,66 @@ header {
                         color: #f5f5f5;
                     }
                 }
+            }
+        }
+    }
+}
+.main-place {
+    display: flex;
+    justify-content: center;
+    background-color: #eeeded;
+    padding-top: 10rem;
+    .container-a {
+        width: 980px;
+        max-width: 980px;
+        display: flex;
+        justify-content: space-between;
+        .space-1 {
+            .experience {
+                font-size: 35px;
+                color: #222831;
+            }
+            .job-1 {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 40px;
+                .icon-box-1 {
+                    padding: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #f5f5f5;
+                    border: 2px solid #31363f;
+                    border-radius: 10px;
+                    .code-icon {
+                        scale: 150%;
+                    }
+                }
+                .job-detail-1 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    margin-left: 20px;
+                    padding-bottom: 5px;
+                    border-bottom: 2px solid #31363f;
+
+                    .webdev {
+                        font-size: 20px;
+                        margin-top: 10px;
+                        color: #222831;
+                    }
+                    .webdev-2 {
+                        font-size: 18px;
+                        margin-top: 7px;
+                        color: #31363f;
+                    }
+                }
+            }
+        }
+        .space-2 {
+            .awards {
+                font-size: 30px;
+                color: #222831;
             }
         }
     }
