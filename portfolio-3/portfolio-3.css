@@ -111,9 +111,10 @@ header {
             flex-direction: column;
             justify-content: flex-start;
             .basement {
+                letter-spacing: 2px;
                 font-size: 40px;
                 margin-top: 20px;
-                font-weight: 400;
+                font-weight: 500;
             }
             .aciklama {
                 margin-top: 10px;
@@ -183,6 +184,8 @@ header {
                 display: flex;
                 justify-content: space-between;
                 margin-top: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #b4b4b8;
                 .icon-box-1 {
                     padding: 20px;
                     display: flex;
@@ -201,16 +204,93 @@ header {
                     justify-content: flex-start;
                     margin-left: 20px;
                     padding-bottom: 5px;
-                    border-bottom: 2px solid #31363f;
 
                     .webdev {
-                        font-size: 20px;
-                        margin-top: 10px;
+                        font-size: 24px;
+                        margin-top: 4px;
                         color: #222831;
                     }
                     .webdev-2 {
+                        font-weight: 300;
                         font-size: 18px;
-                        margin-top: 7px;
+                        margin-top: 10px;
+                        color: #31363f;
+                    }
+                }
+            }
+            .job-2 {
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #b4b4b8;
+                .icon-box-2 {
+                    padding: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #f5f5f5;
+                    border: 2px solid #31363f;
+                    border-radius: 10px;
+                    .money {
+                        scale: 150%;
+                    }
+                }
+                .job-detail-2 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    margin-left: 20px;
+                    padding-bottom: 5px;
+
+                    .saleman {
+                        font-size: 24px;
+                        margin-top: 4px;
+                        color: #222831;
+                    }
+                    .date {
+                        font-size: 18px;
+                        margin-top: 10px;
+                        color: #31363f;
+                        font-weight: 300;
+                    }
+                }
+            }
+            .job-3 {
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #b4b4b8;
+                .icon-box-3 {
+                    padding: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #f5f5f5;
+                    border: 2px solid #31363f;
+                    border-radius: 10px;
+                    .iron {
+                        scale: 150%;
+                    }
+                }
+                .job-detail-3 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    margin-left: 20px;
+                    padding-bottom: 5px;
+
+                    .textile {
+                        font-size: 24px;
+                        margin-top: 4px;
+                        color: #222831;
+                    }
+                    .date {
+                        font-size: 18px;
+                        font-weight: 300;
+
+                        margin-top: 10px;
                         color: #31363f;
                     }
                 }
@@ -218,8 +298,118 @@ header {
         }
         .space-2 {
             .awards {
-                font-size: 30px;
+                font-size: 35px;
                 color: #222831;
+            }
+            .awards-1 {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #b4b4b8;
+                .award-icon-1 {
+                    padding: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #f5f5f5;
+                    border: 2px solid #31363f;
+                    border-radius: 10px;
+                    .cup {
+                        scale: 150%;
+                    }
+                }
+                .award-detail-1 {
+                    margin-right: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    padding-bottom: 5px;
+                    .parfum {
+                        font-size: 24px;
+                        margin-top: 4px;
+                        color: #222831;
+                    }
+                    .date {
+                        font-size: 18px;
+                        margin-top: 10px;
+                        color: #31363f;
+                        font-weight: 300;
+                    }
+                }
+            }
+            .awards-2 {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #b4b4b8;
+                .award-icon-2 {
+                    padding: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #f5f5f5;
+                    border: 2px solid #31363f;
+                    border-radius: 10px;
+                    .elevator {
+                        scale: 150%;
+                    }
+                }
+                .award-detail-2 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    padding-bottom: 5px;
+                    .asansor {
+                        font-size: 24px;
+                        margin-top: 4px;
+                        color: #222831;
+                    }
+                    .date {
+                        font-size: 18px;
+                        margin-top: 10px;
+                        color: #31363f;
+                        font-weight: 300;
+                    }
+                }
+            }
+            .awards-3 {
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #b4b4b8;
+                .award-icon-3 {
+                    padding: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #f5f5f5;
+                    border: 2px solid #31363f;
+                    border-radius: 10px;
+                    .bestfriend {
+                        scale: 150%;
+                    }
+                }
+                .award-detail-3 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    padding-bottom: 5px;
+                    margin-left: 15px;
+                    .bestie {
+                        font-size: 24px;
+                        margin-top: 4px;
+                        color: #222831;
+                    }
+                    .date {
+                        font-size: 18px;
+                        margin-top: 10px;
+                        color: #31363f;
+                        font-weight: 300;
+                    }
+                }
             }
         }
     }
