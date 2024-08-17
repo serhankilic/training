@@ -11,14 +11,6 @@ html {
 }
 
 header {
-    .first_content {
-        display: flex;
-        justify-content: center;
-        width: 10rem;
-        height: 15rem;
-        background-color: red;
-    }
-
     .navbar {
         height: 8rem;
         display: flex;
@@ -85,6 +77,88 @@ header {
                 &:hover {
                     background-color: #31363f;
                     border-color: #31363f;
+                }
+            }
+        }
+    }
+    .container {
+        width: 980px;
+        max-width: 980px;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+        background-color: #f5f5f5;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        box-shadow:
+            0 4px 6px -1px rgb(0 0 0 / 0.1),
+            0 2px 4px -2px rgb(0 0 0 / 0.1);
+    }
+    .first_content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 25rem;
+        .kutu-1 {
+            display: flex;
+            align-items: center;
+            font-size: 90px;
+            font-weight: bold;
+        }
+        .kutu-2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            .basement {
+                font-size: 40px;
+                margin-top: 90px;
+                font-weight: 600;
+            }
+            .aciklama {
+                margin-top: 20px;
+                font-size: 22px;
+                color: #31363f;
+                font-weight: 200;
+            }
+            .main-buttons {
+                margin-top: 70px;
+
+                .talk {
+                    font-size: 25px;
+                    background-color: #31363f;
+                    border: 2px solid #31363f;
+                    color: #f5f5f5;
+                    border-radius: 15px;
+                    margin-right: 40px;
+                    text-decoration: none;
+                    padding: 10px 30px;
+                    box-shadow:
+                        0 10px 15px -3px rgb(0 0 0 / 0.1),
+                        0 4px 6px -4px rgb(0 0 0 / 0.1);
+                    transition: 0.4s all;
+
+                    &:hover {
+                        background-color: #f5f5f5;
+                        border-color: #31363f;
+                        color: #31363f;
+                    }
+                }
+                .work {
+                    font-size: 25px;
+                    border: 2px solid #31363f;
+                    border-radius: 15px;
+                    color: #31363f;
+                    text-decoration: none;
+                    padding: 10px 30px;
+                    box-shadow:
+                        0 10px 15px -3px rgb(0 0 0 / 0.1),
+                        0 4px 6px -4px rgb(0 0 0 / 0.1);
+                    transition: 0.4s all;
+                    &:hover {
+                        background-color: #31363f;
+                        color: #f5f5f5;
+                    }
                 }
             }
         }
