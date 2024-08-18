@@ -415,6 +415,12 @@ header {
         margin-bottom: 20px;
     }
 }
+.bottom-main {
+    display: flex;
+    justify-content: center;
+    width: 980px;
+    align-items: center;
+}
 .bottom-place {
     display: flex;
     justify-content: center;
@@ -426,19 +432,63 @@ header {
         max-width: 980px;
         background-color: red;
         align-items: center;
-        justify-content: center;
-
-        p {
+        justify-content: space-between;
+        flex-direction: column;
+        .anabaslik {
             display: flex;
-            font-size: 40px;
-            font-weight: 500;
-            align-items: center;
             justify-content: center;
-            margin-bottom: 20px;
+            p {
+                display: flex;
+                font-size: 40px;
+                font-weight: 500;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 40px;
+            }
         }
+
         .boxes {
+            width: 980px;
             display: flex;
             justify-content: space-between;
+            .left_box {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                .left-1 {
+                    background-color: mediumaquamarine;
+                    .left_image_1 {
+                    }
+                    .boyfriend {
+                        display: flex;
+                        width: 430px;
+                        align-items: flex-start;
+                        scale: 90%;
+                    }
+                }
+            }
+            .right_box {
+                width: 430px;
+                justify-content: flex-start;
+                align-items: flex-start;
+                .right-1 {
+                    background-color: slateblue;
+                    .right_image_1 {
+                    }
+                    .best-friend {
+                        display: flex;
+                        width: 430px;
+                        align-items: flex-start;
+                        scale: 90%;
+                    }
+                    .altbaslik {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                    }
+                }
+            }
         }
     }
 }
