@@ -451,41 +451,34 @@ header {
             width: 980px;
             display: flex;
             justify-content: space-between;
-            .left_box {
+
+            .box {
+                width: 450px;
                 display: flex;
                 justify-content: flex-start;
                 align-items: flex-start;
-                .left-1 {
-                    background-color: mediumaquamarine;
-                    .left_image_1 {
-                    }
-                    .boyfriend {
-                        display: flex;
-                        width: 430px;
-                        align-items: flex-start;
-                        scale: 90%;
-                    }
-                }
-            }
-            .right_box {
-                width: 430px;
-                justify-content: flex-start;
-                align-items: flex-start;
-                .right-1 {
+                .box_inner {
                     background-color: slateblue;
-                    .right_image_1 {
-                    }
-                    .best-friend {
+                    .box_image {
+                        width: 450px;
                         display: flex;
-                        width: 430px;
+                        flex-direction: column;
                         align-items: flex-start;
                         scale: 90%;
+
+                        img {
+                            width: 100%;
+                            border-radius: 15px;
+                        }
                     }
                     .altbaslik {
                         display: flex;
                         flex-direction: column;
                         justify-content: flex-start;
                         align-items: flex-start;
+                    }
+                    figcaption {
+                        color: aquamarine;
                     }
                 }
             }
