@@ -412,5 +412,33 @@ header {
                 }
             }
         }
+        margin-bottom: 20px;
+    }
+}
+.bottom-place {
+    display: flex;
+    justify-content: center;
+    background-color: #eeeded;
+    padding-top: 5rem;
+    .container-b {
+        display: flex;
+        width: 980px;
+        max-width: 980px;
+        background-color: red;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            display: flex;
+            font-size: 40px;
+            font-weight: 500;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .boxes {
+            display: flex;
+            justify-content: space-between;
+        }
     }
 }
