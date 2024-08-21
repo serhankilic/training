@@ -125,6 +125,11 @@ header {
                 }
                 .main-buttons {
                     display: grid;
+                    margin-top: 30px;
+                    grid-row-gap: 20px;
+                    grid-column-gap: 20px;
+                    grid-template-columns: repeat(2, 255px);
+                    grid-template-rows: 50px 50px;
                     width: 100%;
 
                     .talk {
@@ -683,9 +688,10 @@ footer {
 @media only screen and (max-width: 1536px) {
     .main-buttons {
         margin-top: 35px;
+        margin-top: 30px;
         grid-row-gap: 20px;
         grid-column-gap: 20px;
-        grid-template-columns: 255px 255px;
+        grid-template-columns: repeat(2, 245px);
         grid-template-rows: 50px 50px;
         .talk {
             margin-right: 40px;
@@ -695,17 +701,17 @@ footer {
             padding: 10px 30px;
         }
     }
-    .main-place {
-        width: 100%;
-        .container-a {
-            gap: 140px;
-        }
+    .container-a{
+        gap: 200px;
     }
+    
     .boxes {
-        grid-template-columns: 50% 50%;
+        grid-template-columns: repeat(2 , 250px);
         grid-template-rows: 50% 50%;
         grid-column-gap: 40px;
         grid-row-gap: 40px;
+        grid-column: 1/2 2/3;
+
     }
 }
 @media only screen and (max-width: 1024px) {
