@@ -691,39 +691,7 @@ footer {
     }
 }
 @media only screen and (max-width: 1024px) {
-    .row {
-        padding: 0 40px;
-    }
     .navbar {
-        padding: 0 10px;
-    }
-    .container {
-        width: 90%;
-    }
-    .main-place {
-        padding: 30px 40px;
-    }
-    .container-b {
-        padding: 0 40px;
-    }
-    .bottom-main {
-        padding: 0 40px;
-    }
-
-    .bottom-place {
-        padding: 30px 90px;
-    }
-}
-@media only screen and (max-width: 1005px) {
-    .kutu-2 {
-        width: 300px;
-        margin-left: 90px;
-    }
-    .main-buttons {
-        width: 80%;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .first_content {
+        padding: 0;
     }
 }
