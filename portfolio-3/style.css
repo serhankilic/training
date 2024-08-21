@@ -749,10 +749,19 @@ footer {
         width: 400px;
     }
     .main-buttons {
-        height: auto;
-        display: grid;
-        margin-top: 10px;
-        grid-template-columns: 200px;
-        grid-template-rows: 1fr 1fr;
+        a {
+            height: auto;
+            display: grid;
+            margin-top: 10px;
+            grid-template-columns: auto;
+            grid-template-rows: 1fr 1fr;
+            grid-column: 1 / 2;
+        }
+    }
+    .boxes {
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0;
     }
 }
