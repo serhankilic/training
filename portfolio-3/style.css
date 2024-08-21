@@ -14,7 +14,6 @@ html {
 header {
     .navbar {
         height: 8rem;
-        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -100,7 +99,7 @@ header {
             width: 100%;
             display: flex;
             justify-content: space-between;
-            height: 20rem;
+            height: 100%;
             .kutu-1 {
                 display: flex;
                 align-items: center;
@@ -696,6 +695,12 @@ footer {
             padding: 10px 30px;
         }
     }
+    .main-place {
+        width: 100%;
+        .container-a {
+            gap: 140px;
+        }
+    }
     .boxes {
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
@@ -711,11 +716,22 @@ footer {
         padding: 0 60px;
         .container {
             .first_content {
+                flex-direction: column;
+                row-gap: 90px;
+                .kutu-1 {
+                    text-align: center;
+                }
+                .kutu-2 {
+                    width: 100%;
+                    text-align: center;
+                    align-items: center;
+                }
                 .main-buttons {
+                    justify-content: center;
                     margin-top: 30px;
                     grid-row-gap: 20px;
                     grid-column-gap: 20px;
-                    grid-template-columns: 255px 255px;
+                    grid-template-columns: repeat(1, 215px);
                     grid-template-rows: 50px 50px;
                     .work {
                         justify-self: center;
@@ -744,6 +760,9 @@ footer {
 @media only screen and (max-width: 980px) {
     .row {
         padding: 0 60px;
+        .contacts {
+            text-align: center;
+        }
     }
     .kutu-2 {
         width: 400px;
@@ -763,5 +782,26 @@ footer {
         grid-template-rows: 1fr;
         grid-column-gap: 10px;
         grid-row-gap: 0;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .navbar {
+        width: fit-content;
+        overflow: hidden;
+        .contacts {
+        }
+    }
+    .main-place {
+        width: 100%;
+    }
+    .container-a {
+        flex-direction: column;
+        padding-bottom: 120px;
+    }
+}
+@media only screen and (max-width: 795px) {
+    .navbar {
+        width: 100%;
+        flex-direction: column;
     }
 }
