@@ -5,6 +5,7 @@
 }
 html {
     font-family: 'Anek Devanagari', sans-serif;
+    scroll-behavior: smooth;
 }
 header {
     height: 47rem;
@@ -15,6 +16,7 @@ header {
     box-shadow:
         rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+    margin-bottom: 10rem;
     nav {
         padding: 20px 65px;
         display: flex;
@@ -67,6 +69,111 @@ header {
 
             &:hover {
                 scale: 110%;
+            }
+        }
+    }
+}
+main {
+    max-width: 1200px;
+    .box-1 {
+        display: flex;
+        justify-content: center;
+        .description {
+            border: 2px solid transparent;
+            width: 43rem;
+            text-align: start;
+            font-size: 1.5rem;
+            font-weight: 300;
+            padding: 0.5rem;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+            i {
+                font-family: 'Great Vibes', cursive;
+                font-weight: 500;
+                font-size: 2rem;
+                letter-spacing: 1.5px;
+            }
+        }
+    }
+    .menu {
+        margin-top: 15rem;
+        margin-bottom: 15rem;
+        .menu-text {
+            font-size: 6rem;
+            font-family: 'Great Vibes', cursive;
+            margin: 5rem;
+        }
+        .menu-container {
+            .menu-bar {
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: flex-start;
+                margin-left: 65px;
+                input {
+                    margin: 0 10px;
+                    font-family: 'Anek Devanagari', cursive;
+                    text-decoration: none;
+                    border: transparent;
+                    border-bottom: 1px solid black;
+                    background-color: transparent;
+                    font-size: 23px;
+                    transition: 0.35s all;
+                    &:focus {
+                        border-bottom: 1px solid black;
+                        scale: 110%;
+                        font-weight: 500;
+                        .image-box{
+                            background-image: url("./public/margarita.jpg");
+                        }
+                    }
+                }
+            }
+        }
+        .menu-container-2 {
+            display: flex;
+            justify-content: center;
+            max-width: 1200px;
+            padding-right: 5rem;
+            .menu-main {
+                width: 1200px;
+                background-color: sandybrown;
+                display: flex;
+                justify-content: space-around;
+
+                .image-box {
+                    width: 400px;
+                    height: 400px;
+                    background-size: cover;
+                    background-position: center;
+                    background-color: red;
+                    margin: auto;
+                }
+                .menu-list {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    ul {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        padding-right: 60px;
+                        font-size: 22px;
+                        border-bottom: 2px solid black;
+                        font-weight: 300;
+                        }
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            margin-bottom: 10px;
+                        }
+                    .margarita:focus{
+                        #img-box{
+                            background-image: url("./public/margarita.jpg");d
+                        }
+                    }
+
+                }
             }
         }
     }
