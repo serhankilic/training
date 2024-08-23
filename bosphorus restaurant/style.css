@@ -85,7 +85,7 @@ main {
             font-size: 1.5rem;
             font-weight: 300;
             padding: 0.5rem;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 
             i {
                 font-family: 'Great Vibes', cursive;
@@ -122,9 +122,6 @@ main {
                         border-bottom: 1px solid black;
                         scale: 110%;
                         font-weight: 500;
-                        .image-box{
-                            background-image: url("./public/margarita.jpg");
-                        }
                     }
                 }
             }
@@ -134,18 +131,19 @@ main {
             justify-content: center;
             max-width: 1200px;
             padding-right: 5rem;
+
             .menu-main {
                 width: 1200px;
-                background-color: sandybrown;
+                padding-top: 2rem;
                 display: flex;
                 justify-content: space-around;
 
                 .image-box {
                     width: 400px;
                     height: 400px;
+                    background-image: url('./public/margarita.jpg');
                     background-size: cover;
                     background-position: center;
-                    background-color: red;
                     margin: auto;
                 }
                 .menu-list {
@@ -153,6 +151,7 @@ main {
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    padding-left: 15px;
                     ul {
                         display: flex;
                         flex-direction: row;
@@ -161,18 +160,16 @@ main {
                         font-size: 22px;
                         border-bottom: 2px solid black;
                         font-weight: 300;
-                        }
-                        a {
-                            text-decoration: none;
-                            color: black;
-                            margin-bottom: 10px;
-                        }
-                    .margarita:focus{
-                        #img-box{
-                            background-image: url("./public/margarita.jpg");d
+                    }
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        margin-bottom: 10px;
+                        transition: 0.35s all;
+                        &:hover {
+                            font-weight: 500;
                         }
                     }
-
                 }
             }
         }
