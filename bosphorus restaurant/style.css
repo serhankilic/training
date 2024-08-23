@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Great+Vibes&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Anek Devanagari', sans-serif;
+}
+header {
+    height: 47rem;
+    background-image: url('./public/restoran.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow:
+        rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+    nav {
+        padding: 20px 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 22px;
+        .side_buttons {
+            text-decoration: none;
+            color: #ffff;
+            border-bottom: 2px solid #fff;
+        }
+        .logo {
+            margin-top: 10px;
+            font-family: 'Great Vibes', cursive;
+            letter-spacing: 1px;
+            font-size: 2.5rem;
+            color: #ffff;
+        }
+        a {
+            transition: 0.35s all;
+        }
+        a:hover {
+            scale: 110%;
+        }
+    }
+    .main-text {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        top: 10rem;
+        align-content: center;
+        color: #fff;
+        p {
+            font-family: 'Great Vibes', cursive;
+            font-size: 8rem;
+        }
+    }
+    .scroll {
+        color: white;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        top: 25rem;
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            border-bottom: 2px solid white;
+            transition: 0.35s all;
+
+            &:hover {
+                scale: 110%;
+            }
+        }
+    }
+}
