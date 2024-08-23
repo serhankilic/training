@@ -17,12 +17,25 @@ header {
         rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
     margin-bottom: 10rem;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.4);
+    }
+
     nav {
         padding: 20px 65px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         font-size: 22px;
+        position: relative;
+        z-index: 1;
         .side_buttons {
             text-decoration: none;
             color: #ffff;
@@ -39,7 +52,7 @@ header {
             transition: 0.35s all;
         }
         a:hover {
-            scale: 110%;
+            padding: 0 1rem;
         }
     }
     .main-text {
@@ -74,13 +87,14 @@ header {
     }
 }
 main {
-    max-width: 1200px;
     .box-1 {
         display: flex;
+        position: relative;
         justify-content: center;
         .description {
+            margin: auto;
             border: 2px solid transparent;
-            width: 43rem;
+            width: 50%;
             text-align: start;
             font-size: 1.5rem;
             font-weight: 300;
@@ -98,6 +112,7 @@ main {
     .menu {
         margin-top: 15rem;
         margin-bottom: 15rem;
+        margin-left: 10rem;
         .menu-text {
             font-size: 6rem;
             font-family: 'Great Vibes', cursive;
@@ -136,7 +151,8 @@ main {
                 width: 1200px;
                 padding-top: 2rem;
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-between;
+                gap: 35px;
 
                 .image-box {
                     width: 400px;
@@ -173,5 +189,7 @@ main {
                 }
             }
         }
+    }
+    .deneme {
     }
 }
