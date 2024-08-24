@@ -7,8 +7,11 @@ html {
     font-family: 'Anek Devanagari', sans-serif;
     scroll-behavior: smooth;
 }
+a {
+    color: #000;
+}
 header {
-    height: 47rem;
+    height: 100vh;
     background-image: url('./public/restoran.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -137,6 +140,10 @@ main {
                         border-bottom: 1px solid black;
                         scale: 110%;
                         font-weight: 500;
+
+                        #img-box {
+                            background-image: url('./public/restoran.png');
+                        }
                     }
                 }
             }
@@ -179,7 +186,6 @@ main {
                     }
                     a {
                         text-decoration: none;
-                        color: black;
                         margin-bottom: 10px;
                         transition: 0.35s all;
                         &:hover {
@@ -189,7 +195,5 @@ main {
                 }
             }
         }
-    }
-    .deneme {
     }
 }
