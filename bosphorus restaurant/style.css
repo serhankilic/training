@@ -243,12 +243,12 @@ main {
     }
 }
 @media only screen and (max-width: 640px) {
-    .main-text {
-        margin-top: 30rem;
-        p {
-            font-size: 6rem;
+    header {
+        .main-text {
+            margin-top: 15rem;
+            p {
+                font-size: 4rem;
+            }
         }
-    }
-    .menu-container {
     }
 }
