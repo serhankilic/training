@@ -59,11 +59,11 @@ header {
         }
     }
     .main-text {
+        margin-top: 20rem;
         display: flex;
-        position: relative;
+        position: absolute;
         justify-content: center;
-        top: 10rem;
-        align-content: center;
+        width: 100%;
         color: #fff;
         p {
             font-family: 'Great Vibes', cursive;
@@ -97,7 +97,6 @@ main {
         .description {
             margin: auto;
             border: 2px solid transparent;
-            width: 50%;
             text-align: start;
             font-size: 1.5rem;
             font-weight: 300;
@@ -198,21 +197,58 @@ main {
     }
 }
 @media only screen and (max-width: 1536px) {
+    .main-text {
+        margin-top: 20rem;
+        p {
+            font-size: 8rem;
+        }
+    }
+    .description {
+        width: 65%;
+    }
 }
 @media only screen and (max-width: 1280px) {
     .main-text {
-        margin-top: 15rem;
+        margin-top: 20rem;
+        p {
+            font-size: 8rem;
+        }
     }
-    .scroll {
-        margin-top: 15rem;
+    .description {
+        width: 70%;
     }
 }
 @media only screen and (max-width: 1024px) {
     .main-text {
-        margin-bottom: 16rem;
-        margin-top: 0;
+        p {
+            font-size: 8rem;
+        }
     }
     .scroll {
         margin-top: 2rem;
+    }
+    .description {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .main-text {
+        margin-top: 25rem;
+        p {
+            font-size: 6rem;
+        }
+    }
+    .description {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .main-text {
+        margin-top: 30rem;
+        p {
+            font-size: 6rem;
+        }
+    }
+    .menu-container {
     }
 }
