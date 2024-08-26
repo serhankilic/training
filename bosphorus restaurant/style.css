@@ -245,9 +245,9 @@ main {
 @media only screen and (max-width: 640px) {
     header {
         .main-text {
-            margin-top: 15rem;
+            margin-top: 30rem;
             p {
-                font-size: 4rem;
+                font-size: 6rem;
             }
         }
     }
