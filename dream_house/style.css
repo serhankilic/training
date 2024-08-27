@@ -12,7 +12,7 @@ header {
     width: 100%;
     height: 100vh;
 
-    .container-1{
+    .container-1 {
         width: 100%;
         height: 100vh;
         position: relative;
@@ -27,7 +27,6 @@ header {
         display: flex;
         justify-content: center;
         padding-top: 52px;
-
     }
     nav {
         width: 482px;
@@ -46,28 +45,31 @@ header {
             margin: 0 10px;
             padding: 7px 15px;
             border-radius: 30px;
-            opacity: 100%;!important;
             background-color: transparent;
-            transition:  0.45s all ;
+            transition: 0.45s all;
 
             &:focus {
                 background-color: #efe6e1;
                 color: #56a1fc;
             }
-
+            .home::selection {
+                .container-1 {
+                    visibility: hidden;
+                }
+            }
         }
     }
-    .dreamhome{
+    .dreamhome {
         display: flex;
         justify-content: center;
         margin-top: 40px;
-        p{
+        p {
             text-align: center;
             font-size: 75px;
-            color: #EFE6E1;
+            color: #efe6e1;
         }
     }
-    .box-1{
+    .box-1 {
         width: 100%;
         height: 190px;
         background-color: #272727;
@@ -76,20 +78,18 @@ header {
         justify-content: space-around;
         bottom: 0;
         align-items: center;
-        .kutu{
-
-            p{
-                color: #EFE6E1;
+        .kutu {
+            p {
+                color: #efe6e1;
                 font-size: 64px;
                 font-weight: bolder;
                 justify-content: start;
                 text-align: start;
-                span{
-                    color: #56A1FC;
-
+                span {
+                    color: #56a1fc;
                 }
             }
-            .aciklama{
+            .aciklama {
                 font-size: 32px;
                 font-weight: 200;
             }
