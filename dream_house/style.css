@@ -62,7 +62,7 @@ header {
     .dreamhome {
         display: flex;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 50px;
         p {
             text-align: center;
             font-size: 75px;
