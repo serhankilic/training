@@ -61,6 +61,7 @@ main {
                 font-family: 'open sans', sans-serif;
                 color: #eae4dd;
                 background-color: #295f98;
+                z-index: 111;
                 &:hover {
                     box-shadow: rgb(41, 95, 152) 0 5px 15px;
                     font-weight: 600;
@@ -68,11 +69,41 @@ main {
             }
         }
         .right-content {
-            width: 50%;
+            width: 100%;
             max-width: 600px;
-            font-size: 18px;
-            font-weight: 500;
-            font-family: 'open sans', sans-serif;
+            p {
+                font-size: 20px;
+                font-weight: 500;
+                font-family: 'open sans', sans-serif;
+                margin-bottom: 4rem;
+            }
+
+            .images {
+                display: flex;
+                justify-content: space-between;
+                column-gap: 10px;
+                .box {
+                    width: 200px;
+                    height: 150px;
+                }
+                .box1 {
+                    background-image: url('./public/gallery/experience1.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-size: 300%;
+                }
+                .box2 {
+                    background-image: url('./public/gallery/experience2.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-size: 100%;
+                }
+                .box3 {
+                    background-image: url('./public/gallery/experience3.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
         }
     }
 }
