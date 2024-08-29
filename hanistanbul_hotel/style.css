@@ -112,9 +112,9 @@ header {
     }
 }
 main {
-    margin-top: 10rem;
     padding: 0 50px;
     .main-text {
+        margin-top: 10rem;
         font-size: 28px;
         display: flex;
         justify-content: center;
@@ -300,6 +300,7 @@ footer {
             }
         }
         .right-foot {
+            margin-right: 10px;
             display: flex;
             justify-content: space-between;
             flex-direction: column;
@@ -324,6 +325,7 @@ footer {
                 transition: 0.45s all;
                 &:hover {
                     border-left: 4px solid #eae4dd;
+                    font-weight: 500;
                 }
             }
         }
