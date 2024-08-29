@@ -128,11 +128,9 @@ main {
         display: flex;
         justify-content: center;
         .rooms {
-            max-height: 530px;
             margin-top: 10rem;
             display: flex;
             justify-content: center;
-            flex-direction: row;
             column-gap: 10px;
             img {
                 box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
@@ -342,11 +340,16 @@ footer {
     }
 }
 @media only screen and (max-width: 1536px) {
-    .header-text {
-        padding-top: 2rem;
-    }
-    .reservation {
-        margin: 0 30px;
+    html {
+        body {
+            header {
+                .header-text {
+                    p {
+                        height: 90%;
+                    }
+                }
+            }
+        }
     }
 }
 @media only screen and (max-width: 1280px) {
@@ -355,6 +358,88 @@ footer {
             nav {
                 a {
                     font-size: 16px;
+                }
+            }
+            .header-text {
+                height: 50%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1024px) {
+    html {
+        body {
+            header {
+                nav {
+                    padding: 0 10px;
+                    .reservation {
+                        margin: 0;
+                    }
+                }
+            }
+
+            main {
+                .container-a {
+                    .rooms {
+                        flex-direction: column;
+                        row-gap: 30px;
+                        .right-flex {
+                            img {
+                                width: 600px;
+                                height: 430px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    html {
+        body {
+            header {
+                nav {
+                    .left_nav {
+                        a {
+                            margin: 0 5px;
+                            font-size: 14px;
+                        }
+                    }
+                    .logo {
+                        margin: 0 15px;
+                        a {
+                            p {
+                                font-size: 20px;
+                                margin: 0 25px;
+                            }
+                        }
+                    }
+                    .right-nav {
+                        .reservation {
+                            a {
+                                padding: 5px 15px;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                .header-text {
+                    p {
+                        font-size: 70px;
+                    }
+                }
+            }
+            footer {
+                .main-footer {
+                    padding: 0 30px;
+                }
+                .footer-logo {
+                    a {
+                        p {
+                            font-size: 4rem;
+                        }
+                    }
                 }
             }
         }
