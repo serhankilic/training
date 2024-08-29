@@ -2,10 +2,12 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 html,
 body {
     font-family: 'Playfair Display', serif;
+    background-color: #eae4dd;
 }
 header {
     width: 100%;
@@ -31,19 +33,25 @@ header {
         justify-content: space-between;
         align-items: center;
         height: 10rem;
+        backdrop-filter: blur(5px);
         a {
             margin: 0 70px;
             text-decoration: none;
             font-family: 'Open Sans', sans-serif;
             color: #faf9f6;
             font-size: 20px;
-            border-bottom: 2px solid #faf9f6;
+            border-bottom: 2px solid rgba(250, 249, 246, 0.4);
             transition: 0.3s all;
             font-weight: 500;
         }
         .left_nav {
             a {
-                margin: 0 30px;
+                margin: 0 20px;
+                padding: 5px 0;
+                transition: 0.3s all;
+                &:hover {
+                    border-bottom: 2px solid #faf9f6;
+                }
             }
         }
         .logo {
@@ -69,13 +77,13 @@ header {
                 padding: 10px 25px;
                 transition: 0.3s all;
                 &:hover {
-                    box-shadow: rgb(170, 170, 170) 0px 5px 15px;
+                    box-shadow: rgb(170, 170, 170) 0 5px 15px;
                     background-color: rgba(26, 26, 26, 0.1);
                 }
             }
         }
     }
-    .main-text {
+    .header-text {
         width: 100%;
         display: flex;
         position: relative;
@@ -87,5 +95,123 @@ header {
         padding-top: 20rem;
         color: #faf9f6;
         text-shadow: 1px -1px 15px rgba(44, 44, 43, 1);
+        user-select: none;
+    }
+    .scroll {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        right: 50%;
+        scale: 200%;
+        transition: 0.3s all;
+        &:hover {
+            scale: 275%;
+        }
+    }
+}
+main {
+    margin-top: 10rem;
+    padding: 0 50px;
+    .main-text {
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        p {
+            max-width: 1000px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+        }
+    }
+    .container-a {
+        display: flex;
+        justify-content: center;
+        .rooms {
+            max-height: 530px;
+            margin-top: 10rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            column-gap: 10px;
+            img {
+                box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+            }
+            .left-flex {
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+                img {
+                    width: 600px;
+                    height: 530px;
+                }
+            }
+            .right-flex {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                row-gap: 30px;
+
+                img {
+                    width: 450px;
+                    height: 250px;
+                }
+                .image-1 {
+                    justify-content: flex-start;
+                }
+                .image-3 {
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+    .container-b {
+        display: flex;
+        justify-content: center;
+        .discover {
+            margin-top: 15rem;
+            max-width: 1000px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+
+            h2.header2 {
+                font-size: 45px;
+                font-weight: 500;
+            }
+            p {
+                margin-top: 2rem;
+                font-size: 25px;
+                text-align: center;
+                font-weight: 400;
+            }
+            .discover-buttons {
+                width: 100%;
+                margin-top: 45px;
+                margin-bottom: 40px;
+                display: flex;
+                justify-content: center;
+                column-gap: 10rem;
+                font-family: 'open sans', sans-serif;
+                a {
+                    padding: 10px 25px;
+                    text-decoration: none;
+                    font-size: 25px;
+                    background-color: #295f98;
+                    color: #eae4dd;
+                    border: 2px solid rgba(32, 32, 32, 0.86);
+                    border-radius: 10px;
+                    transition: 0.3s all;
+                    &:hover {
+                        box-shadow: rgb(41, 95, 152) 0 5px 15px;
+                        border-radius: 25px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
     }
 }
