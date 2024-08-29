@@ -16,6 +16,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
     &:before {
         content: '';
         position: absolute;
@@ -40,15 +41,14 @@ header {
             font-family: 'Open Sans', sans-serif;
             color: #faf9f6;
             font-size: 20px;
-            border-bottom: 2px solid rgba(250, 249, 246, 0.4);
-            transition: 0.3s all;
-            font-weight: 500;
         }
         .left_nav {
             a {
                 margin: 0 20px;
                 padding: 5px 0;
                 transition: 0.3s all;
+                border-bottom: 2px solid rgba(250, 249, 246, 0.4);
+                font-weight: 500;
                 &:hover {
                     border-bottom: 2px solid #faf9f6;
                 }
@@ -71,7 +71,6 @@ header {
             }
         }
         .reservation {
-            margin: 0 70px;
             a {
                 border: 2px solid #faf9f6;
                 padding: 10px 25px;
@@ -92,7 +91,6 @@ header {
         align-items: center;
         font-size: 100px;
         font-weight: 600;
-        padding-top: 20rem;
         color: #faf9f6;
         text-shadow: 1px -1px 15px rgba(44, 44, 43, 1);
         user-select: none;
@@ -113,6 +111,7 @@ header {
 }
 main {
     padding: 0 50px;
+
     .main-text {
         margin-top: 10rem;
         font-size: 28px;
@@ -336,6 +335,28 @@ footer {
         text-align: center;
         font-size: 5rem;
         margin: 6rem auto 0;
-        color: rgba(234, 228, 221, 0.7);
+        a {
+            text-decoration: none;
+            color: rgba(234, 228, 221, 0.7);
+        }
+    }
+}
+@media only screen and (max-width: 1536px) {
+    .header-text {
+        padding-top: 2rem;
+    }
+    .reservation {
+        margin: 0 30px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    html {
+        header {
+            nav {
+                a {
+                    font-size: 16px;
+                }
+            }
+        }
     }
 }
