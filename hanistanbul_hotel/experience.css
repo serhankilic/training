@@ -186,3 +186,40 @@ footer {
         }
     }
 }
+@media only screen and (max-width: 1024px) {
+    html {
+        body {
+            main {
+                .container {
+                    column-gap: 3rem;
+                    .left-content {
+                        width: 100%;
+                        p {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    html {
+        body {
+            main {
+                height: auto;
+                margin-bottom: 2rem;
+                .container {
+                    flex-direction: column;
+                    row-gap: 5rem;
+                    .left-content {
+                        width: 100%;
+                        p {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
