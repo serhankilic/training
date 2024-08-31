@@ -84,7 +84,7 @@ header {
     }
     .header-text {
         width: 100%;
-        top: 20%;
+
         display: flex;
         position: relative;
         flex-direction: column;
@@ -347,9 +347,8 @@ footer {
         body {
             header {
                 .header-text {
-                    top: 30%;
+                    top: 15%;
                     p {
-                        height: 90%;
                     }
                 }
             }
