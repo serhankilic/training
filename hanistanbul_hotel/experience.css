@@ -220,6 +220,14 @@ footer {
                     }
                 }
             }
+            footer {
+                .footer-logo {
+                    a {
+                        font-size: 4rem;
+                        padding-top: 4px;
+                    }
+                }
+            }
         }
     }
 }
