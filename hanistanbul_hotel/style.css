@@ -84,7 +84,7 @@ header {
     }
     .header-text {
         width: 100%;
-
+        top: 25%;
         display: flex;
         position: relative;
         flex-direction: column;
@@ -347,7 +347,7 @@ footer {
         body {
             header {
                 .header-text {
-                    top: 15%;
+                    top: 30%;
                     p {
                     }
                 }
@@ -376,6 +376,9 @@ footer {
                     padding: 0 10px;
                     .reservation {
                         margin: 0;
+                    }
+                    .header-text {
+                        top: 30%;
                     }
                 }
             }
@@ -427,6 +430,7 @@ footer {
                     }
                 }
                 .header-text {
+                    top: 30%;
                     p {
                         font-size: 70px;
                     }
