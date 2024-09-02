@@ -6,5 +6,150 @@
 html,
 body {
     height: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'SUSE', sans-serif;
+    background-color: #faf9f6;
+}
+body {
+    header {
+        padding-top: 2rem;
+        nav {
+            padding: 30px 3rem;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid rgba(0, 0, 0, 0.24);
+            font-size: 1.3rem;
+            align-items: center;
+            .logo {
+                font-family: 'Inter', sans-serif;
+                font-size: 2rem;
+                span {
+                    color: #ff9100;
+                }
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            .nav-buttons {
+                a {
+                    margin: 0 20px;
+                    padding-bottom: 5px;
+                    text-decoration: none;
+                    color: black;
+                    border-bottom: 2px solid transparent;
+                    transition: 0.3s all;
+                    &:hover {
+                        border-bottom: 2px solid black;
+                        font-weight: 500;
+                    }
+                    &.selected {
+                        border-bottom: 2px solid black;
+                        font-weight: 500;
+                    }
+                }
+                span {
+                    color: rgba(0, 0, 0, 0.24);
+                }
+            }
+            .social-media {
+                a {
+                    width: 100px;
+                    height: 100px;
+                    padding: 0 20px;
+                    img {
+                        scale: 120%;
+                        align-items: center;
+                        align-content: center;
+                    }
+                }
+            }
+        }
+        .container-header {
+            padding: 80px 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .find {
+                margin-left: 10rem;
+                font-size: 4rem;
+                font-family: 'Inter', sans-serif;
+                .gradient {
+                    background: #3c3c3c;
+                    background: linear-gradient(
+                        to right,
+                        #3c3c3c 15%,
+                        #d3d2cf 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+                p {
+                    text-align: right;
+                    font-weight: 400;
+
+                    img {
+                        scale: 300%;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .cards {
+                .card-1 {
+                    background-color: white;
+                    padding: 20px;
+                    width: 300px;
+                    .search-tabs {
+                        button {
+                            margin: 0 10px;
+                            padding: 10px 20px;
+                            font-size: 18px;
+                            border: none;
+                            font-weight: 300;
+                            transition: .3s all;
+                            &.active {
+                                background-color: black;
+                                color: #faf9f6;
+                            }
+                            &:hover {
+                                background-color: black;
+                                color: #faf9f6;
+                            }
+                            &:focus {!important;
+                                background-color: black;
+                                color: #faf9f6;
+                                .active {
+                                    background-color: white;
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+                }
+                .card-2 {
+                    background-color: white;
+                    width: 450px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    select {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        width: 400px; /* Genişlik */
+                        height: 50px;
+                        padding: 8px; /* İç boşluk */
+                        border: 2px solid #ccc; /* Kenarlık */
+                        border-radius: 4px; /* Kenar yuvarlama */
+                        font-size: 16px; /* Yazı tipi boyutu */
+                        color: #7d7d7d;
+
+                    }
+
+
+
+
+                }
+            }
+        }
+    }
 }

@@ -12,7 +12,54 @@
     </head>
     <body>
         <header>
-            <nav></nav>
+            <nav>
+                <div class="logo">
+                    <a href='index.html' draggable='false'><p>Realhan<span>.</span></p></a>
+                </div>
+                <div class="nav-buttons">
+                    <a href="#" class='selected'>Home</a> <span class="slash">/</span>
+                    <a href="#">Pages</a> <span class="slash">/</span>
+                    <a href="#">Apartments</a> <span class="slash">/</span>
+                    <a href="#">Property</a> <span class="slash">/</span>
+                    <a href="#">Shop</a> <span class="slash">/</span>
+                    <a href="#">Contacts</a>
+                </div>
+                <div class="social-media">
+                    <a href="#" class="instagram"><img src=public/icons/instagram.svg
+                                                       alt=''></a>
+                    <a href='#'><img src='public/icons/facebook.svg'
+                                     alt=''></a>
+                    <a href='#'><img src='public/icons/linkedin.svg'
+                                     alt=''></a>
+
+                </div>
+            </nav>
+            <div class='container-header'>
+                <div class='find'>
+                    <p>Find your</p>
+                    <p><img src='./public/icons/arrow-up.svg'
+                            alt=''> Dream</p>
+                    <p class='gradient'>Residence</p>
+                </div>
+                <div class='cards'>
+                    <div class='card-1'>
+                        <div class='search-tabs'>
+                            <button class="tab active">Buy</button>
+                            <button class="tab">Sell</button>
+                            <button class="tab">Rent</button>
+                        </div>
+                    </div>
+                    <div class='card-2'>
+                        <label for="property-type"></label>
+                        <select id="property-type">
+                            <option value="">Property Type</option>
+                            <option value="house">House</option>
+                            <option value="apartment">Apartment</option>
+                            <option value="condo">Condo</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
         </header>
     </body>
 </html>
