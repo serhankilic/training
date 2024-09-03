@@ -196,7 +196,6 @@ body {
             max-width: 1200px;
             margin: auto;
             padding: 5rem 30px;
-            border: 2px solid red;
             display: flex;
             position: relative;
             justify-content: space-between;
@@ -340,7 +339,6 @@ body {
             }
         }
         .slider {
-            border: 2px solid green;
             max-width: 1200px;
             margin: auto;
             padding: 1rem 30px;
@@ -401,6 +399,8 @@ body {
                     }
                 }
                 .container-header {
+                    max-width: 950px;
+                    gap: 10rem;
                     .cards {
                         .card-1 {
                             width: 200px;
@@ -413,7 +413,71 @@ body {
                             }
                         }
                         .card-2 {
-                            width: 350px;
+                            width: 450px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    html {
+        body {
+            header {
+                nav {
+                    flex-direction: column;
+                    .logo {
+                        font-size: 2.6rem;
+                    }
+                    .nav-buttons {
+                        font-size: 18px;
+                        margin-top: 20px;
+                    }
+                    .social-media {
+                        display: none;
+                    }
+                }
+                .container-header {
+                    max-width: 760px;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 5rem;
+                    .find {
+                        font-size: 5rem;
+                    }
+                    .cards {
+                        margin-left: 90px;
+                        .card-1 {
+                            width: 250px;
+                            .search-tabs {
+                                button {
+                                    margin: 0 2px;
+                                    padding: 10px 20px;
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                        .card-2 {
+                            width: 450px;
+                        }
+                    }
+                }
+                .bg {
+                    top: 62rem;
+                }
+            }
+            main {
+                .container-1 {
+                    max-width: 750px;
+                    flex-direction: column-reverse;
+                    .boxes {
+                        padding: 0;
+                    }
+                    .box-2 {
+                        margin-bottom: 5rem;
+                        .images {
+                            max-width: 500px;
                         }
                     }
                 }
