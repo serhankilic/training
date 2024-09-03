@@ -9,6 +9,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Realhan</title>
         <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+
     </head>
     <body>
         <header>
@@ -94,6 +96,26 @@
                 <div class='left-2'>
                     <p>Solutions that</p>
                     <p>inspire progress</p>
+                </div>
+                <div class='left-3'>
+                    <div class="tab-container">
+                        <div class="tab-buttons">
+                            <button class="tab-button active" onclick="showContent(event, 'expertise')">Expertise</button>
+                            <button class="tab-button" onclick="showContent(event, 'results')">Results</button>
+                            <button class="tab-button" onclick="showContent(event, 'quality')">Quality</button>
+                        </div>
+                        <div class="tab-content" id="expertise">
+                            <p>Choose us for your real estate needs and experience unparalleled expertise and dedication. With years of industry experience, our team boasts an in-depth understanding of the market.</p>
+                        </div>
+                        <div class="tab-content" id="results" style="display: none;">
+                            <p>Our results speak for themselves. With a strong track record of successful transactions, we ensure that our clients achieve their real estate goals effectively and efficiently.</p>
+                        </div>
+                        <div class="tab-content" id="quality" style="display: none;">
+                            <p>Quality is at the core of everything we do. From our services to our approach, we ensure the highest standards in every aspect of real estate.</p>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
             <div class='box-2 boxes'>
