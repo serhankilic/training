@@ -411,22 +411,22 @@ body {
             }
         }
         .container-2 {
-            max-width: 1250px;
             margin: auto;
             border: 2px solid red;
+            background-color: #f0f8ff;
             .description {
                 margin: auto;
                 padding: 10px 20px;
                 width: fit-content;
                 display: flex;
                 align-items: center;
-                border: 2px solid black;
                 p {
                     margin-left: 5px;
                     font-size: 16px;
                     font-weight: 500;
                     color: #ff9100;
                     text-shadow: 0 4px 5px rgba(0, 0, 0, 0.14);
+                    font-family: 'SUSE', system-ui;
                 }
                 img {
                     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.14));
@@ -434,6 +434,15 @@ body {
                 }
             }
             .description-2 {
+                width: fit-content;
+                margin: 10px auto 3rem;
+                font-size: 32px;
+                font-weight: 600;
+                letter-spacing: 0.7px;
+            }
+            .services {
+                .service {
+                }
             }
         }
     }
