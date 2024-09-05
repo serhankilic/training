@@ -492,6 +492,121 @@ body {
             }
         }
         .container-3 {
+            background-color: #faf9f6;
+            .card-wrapper {
+                margin-top: 10rem;
+                padding-bottom: 5rem;
+                ul.card-list {
+                    display: flex;
+                    justify-content: center;
+                    list-style: none;
+                    li.card-item {
+                        width: 400px;
+                        height: 450px;
+                        border: 1px solid #3c3c3c;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        position: relative;
+                        a {
+                            text-decoration: none;
+                        }
+                        .image {
+                            width: 400px;
+                            height: 250px;
+                            position: relative;
+
+                            p.price {
+                                position: absolute;
+                                bottom: 15px;
+                                right: 15px;
+                                font-family: 'Inter', system-ui;
+                                font-size: 20px;
+                                color: #ffffff;
+                                text-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
+                            }
+                            .featured {
+                                top: 15px;
+                                left: 15px;
+                                padding: 3px 7px;
+                                font-family: 'Inter', system-ui;
+                                position: absolute;
+                                color: black;
+                                border: 1px solid black;
+                                background-color: #f0f0f0;
+                            }
+                        }
+
+                        .home-name {
+                            color: black;
+                            font-size: 28px;
+                            margin-top: 1.5rem;
+                            padding-left: 2rem;
+                        }
+                        .location {
+                            margin-top: 1rem;
+                            padding-left: 2rem;
+                            color: #3c3c3c;
+                        }
+                        .card-bottom {
+                            margin: 3rem 15px 0;
+                            padding: 10px 0 0 0;
+                            display: flex;
+                            justify-content: center;
+                            border-top: 1px solid #3c3c3c;
+                            .bottom {
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+                                color: #3c3c3c;
+                                margin: 0 10px;
+                                img {
+                                    margin-right: 5px;
+                                }
+                                .bottom-description {
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+                        .card-image-1 {
+                            background-image: url('./public/gallery/card-1.png');
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                        }
+                        .card-image-2 {
+                            background-image: url('./public/gallery/card-2.png');
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                        }
+                        .card-image-3 {
+                            background-image: url('./public/gallery/card-3.png');
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                        }
+                        .card-image-4 {
+                            background-image: url('./public/gallery/card-4.png');
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                        }
+                        .card-image-5 {
+                            background-image: url('./public/gallery/card-5.png');
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                        }
+                        .card-image-6 {
+                            background-image: url('./public/gallery/card-6.png');
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                        }
+                    }
+                }
+            }
         }
     }
 }
