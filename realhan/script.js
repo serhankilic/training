@@ -23,16 +23,3 @@ window.onload = function () {
         'expertise'
     )
 }
-const swiper = new Swiper('.swiper', {
-    slidesPerView: 3, // Aynı anda görünen kart sayısı
-    spaceBetween: 30, // Kartlar arasındaki boşluk
-    loop: true, // Sonsuz döngü
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-})
