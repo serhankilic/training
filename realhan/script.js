@@ -23,3 +23,5 @@ window.onload = function () {
         'expertise'
     )
 }
+
+//diger animasyon asagida
