@@ -520,13 +520,13 @@ body {
                 margin-top: 10rem;
                 padding-bottom: 5rem;
                 overflow: hidden;
-                ul.card-list {
+                .card-list {
                     width: max-content;
                     display: flex;
                     column-gap: 15rem;
                     overflow: hidden;
                     list-style: none;
-                    li.card-item {
+                    .card-item {
                         width: 400px;
                         height: 450px;
                         border: 1px solid #3c3c3c;
@@ -1097,4 +1097,8 @@ body {
             }
         }
     }
+}
+.swiper {
+    width: 600px;
+    height: 300px;
 }
