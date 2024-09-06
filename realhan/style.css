@@ -800,15 +800,85 @@ body {
                     text-shadow: 0 4px 5px rgba(0, 0, 0, 0.14);
                     transition: 0.4s all;
                     &:hover {
-                        -webkit-box-shadow: 0px 0px 129px -8px rgba(255, 145, 0, 0.61);
-                        -moz-box-shadow: 0px 0px 129px -8px rgba(255, 145, 0, 0.61);
-                        box-shadow: 0px 0px 129px -8px rgba(255, 145, 0, 0.61);
-                        text-shadow: 0px 4px 6px rgba(128, 128, 128, 1);
-
                         span {
                             border-bottom: 2px solid white;
                         }
                     }
+                }
+            }
+            .neighborhoods {
+                margin: 5rem 0;
+                display: grid;
+                grid-template-columns: 550px 350px 350px;
+                grid-template-rows: repeat(2, 1fr);
+                column-gap: 4rem;
+                row-gap: 3rem;
+                align-items: start;
+                .neighborhood {
+                    width: 350px;
+                    height: 250px;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    text-decoration: none;
+                    color: white;
+                }
+                span {
+                    text-align: start;
+                    position: absolute;
+                    bottom: 10px;
+                    left: 15px;
+                }
+                .value {
+                    opacity: 85%;
+                    bottom: 45px;
+                    backdrop-filter: blur(20px);
+                    text-shadow: 3px 3px 4px rgba(0, 0, 0, 1);
+                }
+                .city {
+                    font-size: 1.7rem;
+                    text-shadow: 3px 3px 4px rgba(0, 0, 0, 1);
+                }
+
+                .big {
+                    width: 550px;
+                    background-color: #f0f8ff;
+                }
+                .nb-1 {
+                    background-image: url('./public/gallery/nb-bg-1.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+                .nb-2 {
+                    background-image: url('./public/gallery/nb-bg-2.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+                .nb-3 {
+                    background-image: url('./public/gallery/nb-bg-3.png');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+                .nb-4 {
+                    background-image: url('./public/gallery/nb-bg-4.jpeg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+                .nb-5 {
+                    background-image: url('./public/gallery/nb-bg-5.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+                .nb-6 {
+                    background-image: url('./public/gallery/nb-bg-6.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
                 }
             }
         }
