@@ -13,7 +13,7 @@ body{
     width: 1440px;
 }
 header{
-    width: 100%;
+    width: 100vw;
     max-width: 1440px;
     height: 100vh;
     nav{
@@ -43,7 +43,7 @@ header{
             }
         }
         .navigations{
-            width: 1000px;
+            width: 100%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
