@@ -179,7 +179,7 @@ body {
         }
         .bg {
             width: 100%;
-            height: 30vh;
+            height: 20rem;
             background-image: url('./public/gallery/bg.png');
             background-size: cover;
             background-position: center;
@@ -191,7 +191,7 @@ body {
         }
     }
     main {
-        margin-top: 20rem;
+        margin-top: 15rem;
         .container-1 {
             max-width: 1200px;
             margin: auto;
@@ -248,7 +248,6 @@ body {
                         margin-right: 25px;
                         cursor: pointer;
                         color: #aaa;
-                        font-weight: 600;
                         border-bottom: 2px solid transparent;
                         transition: 0.4s all;
                         &:hover {
@@ -260,7 +259,7 @@ body {
                     .tab-button.active {
                         color: black;
                         border-bottom: 2px solid black;
-                       
+                        font-weight: bold;
                     }
 
                     .tab-content {
@@ -542,6 +541,7 @@ body {
                 .card-list {
                     width: max-content;
                     display: flex;
+                    column-gap: 15rem;
                     overflow: hidden;
                     list-style: none;
                     .card-item {
@@ -611,8 +611,7 @@ body {
                                     scale: 80%;
                                 }
                                 .bottom-description {
-                                    margin-top: 3px;
-                                    text-wrap: nowrap;
+                                    margin-top: 5px;
                                 }
                             }
                         }
@@ -929,30 +928,19 @@ body {
             }
         }
         .container-6 {
-            padding: 5rem 0;
-            margin-top: 5rem;
-            background-color: ##faf9f6;
-            display: flex;
-            flex-direction: column;
+            padding: 5rem 10rem;
             .update-container {
                 display: flex;
                 justify-content: space-between;
-                
                 .left {
                     .boxes {
-                        width: 800px;
                         position: relative;
                         .box-main {
                             width: 600px;
                             height: 600px;
                             background-image: url('./public/gallery/villa.png');
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            filter: grayscale(.55) saturate(2);
                             position: absolute;
                             z-index: 3;
-                            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
                         }
                         .box-3 {
                             width: 300px;
@@ -961,81 +949,15 @@ body {
                             z-index: 2;
                             position: absolute;
                             bottom: -635px;
-                            right: 155px;
-                            
+                            right: -655px;
                         }
                     }
                 }
                 .right {
-                    .description {
-                        display: flex;
-                        align-items: center;
-                        p {
-                            margin-left: 5px;
-                            font-size: 18px;
-                            font-weight: 500;
-                            color: #ff9100;
-                            text-shadow: 0 4px 5px rgba(0, 0, 0, 0.14);
-                            font-family: 'SUSE', system-ui;
-                        }
-                        img {
-                            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.14));
-                            scale: 80%;
-                        }
-                    }
-                    .description-2{
-                        margin-top: 2rem;
-                        .find{
-                            font-size: 46px;
-                            font-weight: 600;
-                            margin-bottom: 2rem;
-                            color: black;
-                        }
-                        font-size: 20px;
-                        color: #3c3c3c;
-                    }
-                    .e-mail-form{
-                        margin-top: 5rem;
-                        display: flex;
-                        justify-content: space-between;
-                        border: 1px solid #ccc;
-                        border-radius: 2px;
-                        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-                        .email-input{
-                            border: none;
-                            padding: 10px 10px 10px 25px;
-                            width: 99%;
-                            height: 35px;
-                            font-size: 20px;
-                            
-                        }
-                        .subscribe-button{
-                            background-color: #ff9100;
-                            border: none;
-                            color: white;
-                            padding: 10px 40px;
-                            cursor: pointer;
-                            font-size: 20px;
-                            font-weight: 600;
-                            border-top-right-radius: 2px;
-                            border-bottom-right-radius: 2px;
-                            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-                            transition: .3s all;
-                            &:hover{
-                                box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-                            }
-                        }
-                    }
                 }
             }
-            .empty{
-                width: 100%;
-                height: 4rem;
-                background-color: transparent;
-                margin-top: 16rem;
-            }
         }
-       
+    }
 }
 @keyframes scroll {
     0% {
