@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+    </head>
+    <body>
+        <header>
+            <video
+                src="public/bg-video.mp4"
+                type="video/mp4"
+                loop
+                muted
+                autoplay
+                class="hotel-video"
+            ></video>
+            <div class="navigation">
+                <nav>
+                    <div class="navlinks">
+                        <a href="#">Rooms & Suites</a>
+                        <a href="#">Gastronomy</a>
+                        <a href="#">Gallery</a>
+                    </div>
+                    <div class="logo">
+                        <a href="#">
+                            <p class="hotel-name">ROYAL GARDEN HILLSIDE</p>
+                            <p>HOTEL</p>
+                        </a>
+                    </div>
+                    <div class="nav-button">
+                        <a href="#">Book Now</a>
+                    </div>
+                </nav>
+            </div>
+            <p class="main-text">Extraordinary experiences</p>
+            <a href="#" class="see-more"
+                >See more <span><img src="public/down.svg" alt="#" /></span>
+            </a>
+        </header>
+        <main>
+            <section class="rooms-suites-section">
+                <div class="row">
+                    <div class="container">
+                        <div class="roomssuites">
+                            <div class="rs-header">
+                                <div class="left"><p>Rooms & Suites</p></div>
+                                <div class="right">
+                                    <p>
+                                        Discover a whole new way of living your
+                                        holiday in Ibiza. A bohemian luxury that
+                                        leaves your plenty of time to relax on
+                                        your way, in one of our
+                                        <span>21 Rooms & Suites</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="rooms-suites-gallery">
+                        <!-- Slider main container -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img
+                                        src="public/images/gallery/img01.jpg"
+                                        alt="img01"
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="public/images/gallery/img02.jpg"
+                                        alt="img01"
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="public/images/gallery/img03.jpg"
+                                        alt="img01"
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="public/images/gallery/img04.jpg"
+                                        alt="img01"
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="public/images/gallery/img05.jpg"
+                                        alt="img01"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="spa-section">
+                <div class="row">
+                    <div class="container">
+                        <div class="spa-wrapper">
+                            <div class="spa">
+                                <p class="header">La Posidania, Spa, Ibiza</p>
+                                <p class="spa-text">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Architecto distinctio
+                                    dolor eius hic nostrum omnis perspiciatis
+                                    repudiandae sit sunt vero!
+                                </p>
+                                <a href="#" class="spa-button">Discover Spa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="animated-video">
+                <div class="video-area">
+                    <video
+                        src="public/sunset.mp4"
+                        type="video/mp4"
+                        loop
+                        muted
+                        autoplay
+                        class="sunset-video"
+                    ></video>
+                </div>
+                <div class="text-area" id="text-area">
+                    <p class="slide-text">Royal Garden Hillside Hotel</p>
+                    <p class="slide-text">Royal Garden Hillside Hotel</p>
+                    <p class="slide-text">Royal Garden Hillside Hotel</p>
+                </div>
+            </section>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
