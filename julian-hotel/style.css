@@ -73,16 +73,19 @@ header{
             color: white;
             position: relative;
             .top-content{
-                max-width: 520px;
+                padding-top: 2rem;
+                max-width: 550px;
                 position: absolute;
                 padding-bottom: 20px;
                 p{
+                    padding-left: 2rem;
                     font-weight: 200;
                     font-size: 26px;
                 }
             }
             .bottom-content{
                 display: flex;
+                padding-top: 5rem;
                 .left-content{
                     p{
                         font-size: 16rem;
@@ -93,13 +96,29 @@ header{
                 .right-content{
                     .booking{
                         position: absolute;
-                        width: 100px;
-                        height: 100px;
-                        background-color: red;
+                        width: 150px;
+                        height: 150px;
+                        background-color: #ef9386;
+                        border-radius: 100%;
+                        text-align: center;
+                        align-content: center;
+                        right: 6rem;
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            transition: .4s all;
+                            p{
+                                font-size: 22px;
+                            }
+                            &:hover{
+                                color: black;
+                            }
+                            
+                        }
                     }
                     .hotel-text{
                         position: relative;
-                        padding-top: 11rem;
+                        padding-top: 15rem;
                         padding-left: 2rem;
                         font-size: 3rem;
                         font-weight: 500;
