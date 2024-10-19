@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    max-width: 1400px;
+    width: 100%;
+}
+nav{
+    max-width: 1400px;
+    padding: 20px 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    a {
+        text-decoration: none;
+        color: black;
+        margin: 0 10px;
+        padding: 5px 10px;
+        background-color: lemonchiffon;
+        font-size: 19px;
+        border-bottom: 1solid transparent;
+        transition: all .3s;
+    }
+    a:hover {
+        border-bottom: 1px solid black;
+    }
+    .logo{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .download-button{
+        font-size: 22px;
+        a{
+            padding: 10px 30px;
+            border: 1px solid black;
+            border-radius: 24px;
+        }
+
+    }
+}
